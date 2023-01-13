@@ -49,6 +49,8 @@ use:
 If data is updated by the data-provider, you can use the previous command to update your local data.
 The provided parameters make aria2 to check if the remote data has changed and downloads only the updated data.
 
+Just put the command from above into your crontab
+
 
 # TL;DR
 
