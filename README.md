@@ -73,7 +73,7 @@ Tile-Size: 1km x 1km
 
 :warning:  Download-Size: about 240 GB
 ```
-aria2c -V --dir=/data/on_big_hdd/dem/ https://geodaten.bayern.de/odd/a/lod2/citygml/meta/metalink/09.meta4
+aria2c -V --dir=/data/on_big_hdd/dem/ https://geodaten.bayern.de/odd/a/dgm/dgm1/meta/metalink/09.meta4
 ```
 
 ### Ortho-Photo Resolution 40cm
