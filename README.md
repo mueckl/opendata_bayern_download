@@ -52,11 +52,11 @@ The provided parameters make aria2 to check if the remote data has changed and d
 Just put the command from above into your crontab
 
 
-# TL;DR
+## TL;DR
 
-## Commands to download all data
+### Commands to download all data
 
-### 3D Buildings LOD-2
+#### 3D Buildings LOD-2
 Format: CITYGML  
 EPSG : 25832  
 Tile-Size: 2km x 2km
@@ -66,7 +66,7 @@ Tile-Size: 2km x 2km
 aria2c -V --follow-metalink=mem --dir=/data/on_big_hdd/lod2/ https://geodaten.bayern.de/odd/a/lod2/citygml/meta/metalink/09.meta4
 ```
 
-### DEM - Resolution 1m
+#### DEM - Resolution 1m
 Format: GeoTiff  
 EPSG : 25832  
 Tile-Size: 1km x 1km
@@ -76,7 +76,7 @@ Tile-Size: 1km x 1km
 aria2c -V --follow-metalink=mem --dir=/data/on_big_hdd/dem/ https://geodaten.bayern.de/odd/a/lod2/citygml/meta/metalink/09.meta4
 ```
 
-### Ortho-Photo Resolution 40cm
+#### Ortho-Photo Resolution 40cm
 Format : GeoTiff (RGB)  
 EPSG : 25832  
 Tile-Size: 1km x 1km 
