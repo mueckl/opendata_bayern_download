@@ -50,6 +50,39 @@ If data is updated by the data-provider, you can use the previous command to upd
 The provided parameters make aria2 to check if the remote data has changed and downloads only the updated data.
 
 
+# TL;DR
 
+## Commands to download all data
 
+### 3D Buildings LOD-2
+Format: CITYGML  
+EPSG : 25832  
+Tile-Size: 2km x 2km
 
+:warning:  Download-Size: about 150 GB
+```
+aria2c -V --follow-metalink=mem --dir=/data/on_big_hdd/lod2/ https://geodaten.bayern.de/odd/a/lod2/citygml/meta/metalink/09.meta4
+```
+
+### DEM - Resolution 1m
+Format: GeoTiff  
+EPSG : 25832  
+Tile-Size: 1km x 1km
+
+:warning:  Download-Size: about 240 GB
+```
+aria2c -V --follow-metalink=mem --dir=/data/on_big_hdd/dem/ https://geodaten.bayern.de/odd/a/lod2/citygml/meta/metalink/09.meta4
+```
+
+### Ortho-Photo Resolution 40cm
+Format : GeoTiff (RGB)  
+EPSG : 25832  
+Tile-Size: 1km x 1km 
+
+:warning:  :warning:  :warning: Download-Size: about 1,2 **TB** == 1200 GB
+```
+for i in 1 2 3 4 5 6 7
+do
+  aria2c -V --follow-metalink=mem --dir=/data/on_big_hdd/dop/ https://geodaten.bayern.de/odd/a/dop40/meta/metalink/09${i}.meta4
+done
+```
