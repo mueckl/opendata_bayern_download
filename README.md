@@ -1,3 +1,14 @@
+# BayernAtlas mit Parzellarkarte / ohne Login / kostenfrei
+
+https://atlas.bayern.de/?c=642082,5419253&z=8&r=0&l=tk,luftbild_parz&t=ba
+
+* Parzellen
+* Grundstücke
+* Luftbild mit Grundstücksgrenzen
+
+
+# Download
+
 # opendata_bayern_download
 Opendata Bayern Download Documentation
 
