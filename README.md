@@ -6,8 +6,17 @@ https://atlas.bayern.de/?c=642082,5419253&z=8&r=0&l=tk,luftbild_parz&t=ba
 * Grundstücke
 * Luftbild mit Grundstücksgrenzen
 
+## Teile der Rasterdaten in einer App nutzen
 
-# Download
+für Offline-Nutzung am Handy  
+Luftbilder und Grundstücke bzw Parzellen
+
+bitte diese Anleitung lesen: 
+
+https://github.com/mueckl/bvv-offline
+
+
+# Download der Rohdaten
 
 # opendata_bayern_download
 Opendata Bayern Download Documentation
