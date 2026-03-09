@@ -11,7 +11,11 @@ https://atlas.bayern.de/?c=642082,5419253&z=8&r=0&l=tk,luftbild_parz&t=ba
 für Offline-Nutzung am Handy  
 Luftbilder und Grundstücke bzw Parzellen
 
-bitte diese Anleitung lesen: 
+Die Smartphone-App "Osmand" hat die Daten der BVV in seine WMTS-Liste mit aufgenommen.
+
+vgl. https://community.openstreetmap.org/t/ot-android-app-mit-bayernviewer-karten/93634
+
+Für das manuelle Einbinden folgende Anleitung lesen: 
 
 https://github.com/mueckl/bvv-offline
 
